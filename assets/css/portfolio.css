@@ -1,0 +1,12 @@
+.name{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 50px;
+    color: black;
+    font-family: 'Playfair Display', serif;
+}
+
+.header{
+    background-color: slategray;
+    height: 80px;
+}
