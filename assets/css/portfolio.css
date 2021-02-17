@@ -3,19 +3,50 @@
 }
 
 .font2 {
-    
+    font-family: 'Montserrat', sans-serif;
 }
-.name{
-    text-align: center;
-    margin-top: 10px;
-    font-size: 50px;
-    color: black;
+
+.bodyCol {
+    background-color: silver;
+    margin: auto;
 }
 
 .header{
     background-color: slategray;
-    height: 80px;
 }
+.name{
+    margin-top: -3px;
+    font-size: 30px;
+    color: black;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+/*.githubLink{
+    float: right;
+    position:absolute;
+    margin-left: 900px;
+}*/
+
+.github{
+    width: 40px;
+    height: 40px;
+    margin-right: 8px;
+}
+
+.linkedIn {
+    width: 40px;
+    height: 40px;
+    margin-right: -10px;
+}
+
+.navbar{
+    background-color: slategray;
+}
+
+
+
 
 .contactInfo{
     text-align: center;
@@ -29,6 +60,20 @@
     text-align: center;
 }
 
-.portImage{
-    align-items: center;
+IMG.portImage{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.lyricityTitle{
+    text-align: center;
+}
+
+IMG.lyricityImg{
+    height: 500px;
+    width: 1000px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
