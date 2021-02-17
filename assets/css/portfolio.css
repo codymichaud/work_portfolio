@@ -1,3 +1,7 @@
+.clear{
+    clear: both;
+}
+
 .font {
     font-family: 'Playfair Display', serif;
 }
@@ -9,6 +13,7 @@
 .bodyCol {
     background-color: silver;
     margin: auto;
+    white-space:wrap;
 }
 
 .header{
@@ -68,6 +73,7 @@ IMG.portImage{
 
 .lyricityTitle{
     text-align: center;
+    margin-bottom: 30px;
 }
 
 IMG.lyricityImg{
@@ -76,4 +82,23 @@ IMG.lyricityImg{
     display: block;
     margin-left: auto;
     margin-right: auto;
+    float: left;
+}
+
+.lyrLink{
+    margin-top: 40px;
+}
+
+.gitRepo{
+    margin-top: 40px;
+}
+
+.lyricityPar {
+text-align: right;
+float:initial;
+width: 24em;
+display: inline;
+font-family: 'Nunito Sans', sans-serif;
+font-weight: bold;
+font-size: 110%;
 }
