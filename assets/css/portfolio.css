@@ -102,3 +102,18 @@ font-family: 'Nunito Sans', sans-serif;
 font-weight: bold;
 font-size: 110%;
 }
+
+IMG.codeQImg {
+height: 500px;
+    width: 1000px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    float: left;
+    /*margin-top: 200px;*/
+}
+
+.clear{
+    margin-top: 400px;
+}
+
