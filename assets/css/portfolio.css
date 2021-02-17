@@ -1,5 +1,9 @@
-.clear{
-    clear: both;
+.contactInformation{
+    margin-top: 30px;
+}
+
+.clearProj{
+margin-top: 200px;
 }
 
 .font {
@@ -25,7 +29,7 @@
     color: black;
     margin-left: auto;
     margin-right: auto;
-    
+    font-weight: 500;
 }
 
 /*.githubLink{
@@ -89,7 +93,7 @@ IMG.lyricityImg{
     margin-top: 40px;
 }
 
-.gitRepo{
+.lyrRepo{
     margin-top: 40px;
 }
 
@@ -117,3 +121,26 @@ height: 500px;
     margin-top: 400px;
 }
 
+.codeQTitle{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.codeQPar{
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: bold;
+    font-size: 110%;
+    
+}
+
+.codeLink {
+    margin-top: 40px;
+}
+
+.codeLink2:hover{
+    color: lightcoral;
+}
+
+.codeRepo{
+    margin-top: 40px;
+}
