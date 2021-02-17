@@ -78,6 +78,7 @@ IMG.portImage{
 .lyricityTitle{
     text-align: center;
     margin-bottom: 30px;
+    font-size: 200%;
 }
 
 IMG.lyricityImg{
@@ -93,9 +94,19 @@ IMG.lyricityImg{
     margin-top: 40px;
 }
 
+.gitLink:hover{
+    color: lightcoral;
+}
+
+.repoLink:hover{
+    color: lightcoral;
+}
+
 .lyrRepo{
     margin-top: 40px;
 }
+
+
 
 .lyricityPar {
 text-align: right;
@@ -124,6 +135,8 @@ height: 500px;
 .codeQTitle{
     text-align: center;
     margin-bottom: 30px;
+    font-size: 200%;
+    font-family: 'Raleway', sans-serif;
 }
 
 .codeQPar{
@@ -143,4 +156,52 @@ height: 500px;
 
 .codeRepo{
     margin-top: 40px;
+}
+
+.repoLink2:hover{
+    color: lightcoral;
+}
+
+.clearLatte{
+    margin-top: 400px;
+}
+IMG.latteDImg{
+    height: 500px;
+    width: 1000px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    float: left;
+}
+ .latteDTitle{
+     text-align: center;
+     margin-bottom: 30px;
+     font-family: 'Pacifico', cursive;
+     font-size: 200%;
+ }
+
+ .latteDPar{
+     font-family: 'Nunito Sans', sans-serif;
+     font-weight: bold;
+     font-size: 110%;
+ }
+
+ .latteLink{
+     margin-top: 40px;
+ }
+
+ .codeLink3:hover{
+     color: lightcoral;
+ }
+
+ .latteRepo{
+     margin-top: 40px;
+ }
+
+.repoLink3:hover{
+    color: lightcoral;
+}
+
+.repoLink3{
+    text-decoration:none;
 }
