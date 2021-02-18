@@ -100,11 +100,14 @@ IMG.lyricityImg{
 
 .gitLink:hover{
     color: lightcoral;
+    text-decoration: none;
 }
 
 .repoLink:hover{
     color: lightcoral;
+    text-decoration: none;
 }
+
 
 .lyrRepo{
     margin-top: 40px;
@@ -156,6 +159,7 @@ height: 500px;
 
 .codeLink2:hover{
     color: lightcoral;
+text-decoration: none;
 }
 
 .codeRepo{
@@ -164,6 +168,7 @@ height: 500px;
 
 .repoLink2:hover{
     color: lightcoral;
+    text-decoration: none;
 }
 
 .clearLatte{
@@ -196,6 +201,7 @@ IMG.latteDImg{
 
  .codeLink3:hover{
      color: lightcoral;
+     text-decoration: none;
  }
 
  .latteRepo{
@@ -204,9 +210,28 @@ IMG.latteDImg{
 
 .repoLink3:hover{
     color: lightcoral;
+    text-decoration: none;
 }
 
 .repoLink3{
     text-decoration:none;
 }
 
+.resPdf{
+    font-family: 'Nunito Sans', sans-serif;
+font-weight: bold;
+text-decoration: none;
+}
+
+.resPdf:link{
+    text-decoration: none;
+}
+
+.resPdf:hover{
+    color: lightcoral;
+    text-decoration: none;
+}
+
+.resHead{
+    font-family: 'Nunito Sans', sans-serif;
+}
