@@ -73,6 +73,10 @@ IMG.portImage{
     display: block;
     margin-left: auto;
     margin-right: auto;
+    height: 400px;
+    width: 300px;
+    border-radius: 20px;
+    margin-top: 20px;
 }
 
 .lyricityTitle{
@@ -205,3 +209,4 @@ IMG.latteDImg{
 .repoLink3{
     text-decoration:none;
 }
+
