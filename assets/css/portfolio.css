@@ -235,3 +235,7 @@ text-decoration: none;
 .resHead{
     font-family: 'Nunito Sans', sans-serif;
 }
+
+.marg{
+    margin-bottom: 50px;
+}
