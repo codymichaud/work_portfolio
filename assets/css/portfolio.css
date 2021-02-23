@@ -10,7 +10,7 @@ margin-top: 200px;
     font-family: 'Playfair Display', serif;
 }
 
-.font2 {
+#font2 {
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -23,14 +23,15 @@ margin-top: 200px;
 .header{
     background-color: slategray;
 }
-.name{
+.nameP{
     margin-top: -3px;
     font-size: 30px;
     color: black;
-    margin-left: auto;
-    margin-right: auto;
     font-weight: 500;
+    text-align: center;
+    margin-bottom: 0px;    
 }
+
 
 /*.githubLink{
     float: right;
@@ -38,15 +39,21 @@ margin-top: 200px;
     margin-left: 900px;
 }*/
 
-.github{
+#gitLogo{
     width: 40px;
     height: 40px;
     margin-right: 8px;
 }
 
-.linkedIn {
+#linkedLogo {
     width: 40px;
     height: 40px;
+    margin-right: 8px;
+}
+
+#upworkLogo{
+    width: 44px;
+    height: 44px;
     margin-right: -10px;
 }
 
@@ -238,4 +245,30 @@ text-decoration: none;
 
 .marg{
     margin-bottom: 50px;
+}
+
+.navbar-nav{
+    margin-left: 15px;
+}
+
+.nav-link{
+    color: black;
+}
+
+::-webkit-scrollbar{
+    width: 10px;
+}
+
+::-webkit-scrollbar-track{
+    box-shadow: inset 0 0 5px darkslategray;
+    border-radius: 8px;
+}
+
+::-webkit-scrollbar-thumb{
+    background: slategray ;
+    border-radius: 8px;
+}
+
+::-webkit-scrollbar-thumb:hover{
+    background: gray;
 }
