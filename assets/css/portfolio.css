@@ -256,10 +256,31 @@ text-decoration: none;
 }
 
 ::-webkit-scrollbar{
-    width: 10px;
+    width: 0;
+    background: transparent;
 }
 
-::-webkit-scrollbar-track{
+#scrollBarContainer {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 10px;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.05);
+}
+
+#scrollBar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 10px;
+  background: linear-gradient(to top, violet, red);
+  height: 0;
+  opacity: 0;
+}
+
+
+/*::-webkit-scrollbar-track{
     box-shadow: inset 0 0 5px darkslategray;
     border-radius: 8px;
 }
@@ -271,4 +292,10 @@ text-decoration: none;
 
 ::-webkit-scrollbar-thumb:hover{
     background: gray;
+}*/
+
+html{
+    overflow: -moz-scrollbars-none;
+  scrollbar-width: none;
 }
+    

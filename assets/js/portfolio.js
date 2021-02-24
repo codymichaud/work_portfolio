@@ -1,25 +1,42 @@
-<nav class="navbar navbar-custom">
+//const scrollBar = document.querySelector("#scrollBar");
+
+//let totalPageHeight = document.body.scrollHeight - window.innerHeight;
 
 
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-                <a id="font" class="nav-link" href="./index.html">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-                <a id="font" class="nav-link" href="./about_me.html">About Me</a>
-            </li>
-            <li class="navitem">
-                <a id="font" class="nav-link" href="./menu.html">Projects</a>
-            </li>
-            <li class="nav-item">
-                <a id="font" class="nav-link" href="./contact.html">Contact Me!</a>
-            </li>
 
 
-        </ul>
-    </div>
 
-    <div class="mx-auto titleLatteDaa container-fluid font name" style="width: 216px;">
-        Cody Michaud
-        </div>
+
+const scrollBar = document.querySelector("#scrollBar");
+let totalPageHeight = document.body.scrollHeight - window.innerHeight;
+let debounceResize;
+
+window.onscroll = () => {
+    let newScrollHeight = (window.pageYOffset / totalPageHeight) * 100;
+    scrollBar.style.height = `${newScrollHeight}%`;
+    scrollBar.style.opacity = `${newScrollHeight}%`;
+};
+
+//window.addEventListener("scroll", () => {
+//let newScrollHeight = window.pageYOffset / totalPageHeight;
+//scrollBar.style.transform = `scale(1,${newScrollHeight})`;
+//scrollBar.style.opacity = `${newScrollHeight}`;
+//});//, {
+// capture: true,
+//passive: true
+//});
+
+window.addEventListener("resize", () => {
+    clearTimeout(debounceResize);
+    debounceResize = setTimeout(() => {
+        totalPageHeight = document.body.scrollHeight - window.innerHeight;
+    }, 250);
+});
+
+scrollBarContainer.addEventListener("click", (e) => {
+    let newPageScroll = e.clientY / scrollBarContainer.offsetHeight * totalPageHeight;
+    window.scrollTo({
+        top: newPageScroll,
+        behavior: 'smooth'
+    });
+});
