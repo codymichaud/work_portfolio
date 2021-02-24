@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Work Portfolio</title>
+    <link rel="stylesheet" href="./assets/css/portfolio.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,500&display=swap">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+        crossorigin="anonymous"></script>
+</head>
+
+<body class="bodyCol">
+    <div id="scrollBar"></div>
+    <div id="scrollBarContainer"></div>
+    <nav class="navbar navbar-expand-lg navbar-custom">
+        <button class="navbar-toggler navbar-light" type="button" data-toggle="collapse"
+            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <p class="nameP">Cody Michaud</p>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a id="font2" class="nav-link" href="./index.html">Home<span class="sr-only">(current)</span></a>
+                </li>
+
+                <li class="navitem">
+                    <a id="font2" class="nav-link" href="./projects.html">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a id="font2" class="nav-link" href="./port.contact.html">Contact Me!</a>
+                </li>
+            </ul>
+        </div>
+        <a href="https://github.com/codymichaud" target="_blank"><img id="gitLogo" src="./assets/imgs/github.svg"
+                alt="Github"></a>
+
+        <a href="https://www.linkedin.com/in/cody-michaud-b0588a1b1/" target="_blank"><img
+                src="./assets/imgs/Linkedin.svg" alt="Linked-In" id="linkedLogo"></a>
+
+        <a href="https://www.upwork.com/freelancers/~014a06d8859dfbd50e" target="_blank"><img
+                src="./assets/imgs/upWork.svg" alt="UpWork" id="upworkLogo"></a>
+    </nav>
+
+
+    <div class="portProjects col-lg-12">
+        <div class="lyricityCont col-12">
+
+            <div class="clearProj">
+                <img src="./assets/imgs/Lyricity.PNG" alt="lyricity" class="lyricityImg container-fluid">
+                <h2 class="lyricityTitle font2 container-fluid">Lyricity</h2>
+                <p class="lyricityPar">This is Lyricity. My team and I created a web lyrics app that allows
+                    a user to
+                    search for a song that they want to know the lyrics to. If the song is in our database it will
+                    generate
+                    the lyrics and album cover if available. The user can then favorite that song to save it to their
+                    favorites. On the left hand side of the page the user will find a favorites button. When they click
+                    on this it will open their favorites tab allowing them to view and revisit their favorited songs or
+                    clear their favorites in case they are wanting a new list. If the song is not in our database the
+                    user
+                    will be greeted with an inspiring Kanye
+                    quote and Kanye picture. Future developments include the ability to play music, styled lyrics,
+                    ability to create and save music to a playlist.
+                </p>
+                <h5 class="lyrLink">Check out the website <a href="https://codymichaud.github.io/team9/" class="gitLink"
+                        target="_blank">here</a>!!
+                </h5>
+                <h5 class="lyrRepo">If you want to look at the code and see how it was done head <a
+                        href="https://github.com/codymichaud/team9" class="repoLink" target="_blank">here</a>!!</h5>
+            </div>
+        </div>
+
+        <div class="codeQCont col-12">
+
+            <div class="clear">
+
+                <img src="./assets/imgs/coding.quiz.PNG" alt="Coding Quiz" class="codeQImg container-fluid">
+                <h2 class="codeQTitle font2 container-fluid">Coding Quiz</h2>
+                <p class="codeQPar">This is Coding Quiz. I created this web app for my Coding Bootcamp homework. This
+                    web app allows the user to start a timed and scored coding quiz. The quiz has a series of 5 multiple
+                    choice questions. The user has 100 seconds to complete these 5 coding questions. As they answer the
+                    questions if they get the answer wrong it will display the correct answer below the next question.
+                    Once the user reaches the end of the quiz they will see their final score which is based off the
+                    time remaining. They are then asked to enter their initials to save their score in the high score
+                    page. It will also display how many they got correct. Once they submit their score they will be
+                    directed to the high score page which will display all logged scores. Future developments include
+                    the web app having quizs for multiple languages as well as lessons on languages that users can use
+                    to learn how to code and create web apps. Also will save users progress, allow them to have profiles
+                    where they save their languages they are learning, projects they have made and a play ground for
+                    users to practice.
+                </p>
+                <h5 class="codeLink">Check out the website <a
+                        href="https://codymichaud.github.io/coding.quiz/index.html" class="codeLink2"
+                        target="_blank">here</a>!!
+                </h5>
+                <h5 class="codeRepo">If you want to look at the code and see how it was done head <a
+                        href="https://github.com/codymichaud/coding.quiz" class="repoLink2" target="_blank">here</a>!!
+                </h5>
+            </div>
+        </div>
+
+        <div class="latteDCont col-12">
+
+            <div class="clearLatte">
+
+                <img src="./assets/imgs/latte.Daa.PNG" alt="Latte Daa" class="latteDImg container-fluid">
+                <h2 class="latteDTitle font2 container-fluid">Latte' Daa</h2>
+                <p class="latteDPar">This is Latte' Daa. I created this website for a local coffee stand in my area. On
+                    their site a user will be able to see their home page which includes a navbar with the web links,
+                    name and their social profiles linked to the icons. The about me page is currently under
+                    development. The user will be able to see who owns the coffee stand and a little bit about them. On
+                    the menu page users can see the entire menu for Latte' Daa. They will also be able to order off of
+                    doordash by clicking on the door dash link or scanning the QR code. Future developments include
+                    being able to order directly off the website. Allowing users to pay for goods off Latte' Daa
+                    website. Pictures of menu items. On the contact us page user are able to enter their name, email
+                    address and a reason for contact in a contact form. Future developments include these contact
+                    submissions being sent to an email for the owner to read and respond to. An error message if the
+                    user has not entered a reason for contact. A submission form for reviews to be stored on the website
+                    in order for others to view at any computer.
+                </p>
+                <h5 class="latteLink">Check out the website <a href="https://codymichaud.github.io/Latte_Daa/"
+                        class="codeLink3" target="_blank">here</a>!!
+                </h5>
+                <h5 class="latteRepo">If you want to look at the code and see how it was done head <a
+                        href="https://github.com/codymichaud/Latte_Daa" class="repoLink3" target="_blank">here</a>!!
+                </h5>
+            </div>
+        </div>
+    </div>
+    <br><br><br><br><br><br><br><br><br>
+    <div class="col-sm-12 text-center marg">
+        <h4 class="resHead">Like what you see?! Download my<a href="./assets/Cody.Michaud.Resume.pdf" target="_blank"
+                class="resPdf"> resume.</a>
+    </div>
+
+    <script src="./assets/js/portfolio.js"></script>
+</body>
+
+</html>
