@@ -4,7 +4,7 @@
 - [Description](#description)
 - [Usage](#usage)
 - [Questions](#questions)
-- [Walkthrough](#walkthrough)
+
 
 ## Description
 Welcome to my work portfolio. On this web app you will find my featured projects, an about me and a contact me page displaying my contact information.
