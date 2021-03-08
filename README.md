@@ -22,4 +22,4 @@ Email: [cody.r.michaud@gmail.com]
 
 ## Screenshot
 
-![](assets\imgs\work.port.screenshot.PNG)
+![](hw_imgs/work.port.screenshot.PNG)
