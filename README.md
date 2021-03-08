@@ -20,6 +20,9 @@ SO THAT I can make an informed decision on asking to interview that potential em
 Github: [codymichaud](https://github.com/codymichaud)
 Email: [cody.r.michaud@gmail.com]
 
+## Link
+Here is the link to the deployed page: https://codymichaud.github.io/work_portfolio/
+
 ## Screenshot
 
 ![](hw_imgs/work.port.screenshot.PNG)
