@@ -14,6 +14,10 @@ margin-top: 200px;
     font-family: 'Montserrat', sans-serif;
 }
 
+#font3{
+    font-family: 'Nunito Sans', sans-serif;
+}
+
 .bodyCol {
     background-color: silver;
     margin: auto;
@@ -78,10 +82,10 @@ margin-top: 200px;
 
 IMG.portImage{
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    height: 400px;
-    width: 300px;
+    margin-left: 40px;
+    margin-right: 40px;
+    height: 280px;
+    width: 200px;
     border-radius: 20px;
     margin-top: 20px;
 }
@@ -298,4 +302,23 @@ html{
     overflow: -moz-scrollbars-none;
   scrollbar-width: none;
 }
-    
+
+.githubName{
+    color: blacks;
+}
+
+.githubHref{
+    color: black;
+    font:;
+}
+
+.githubHref:hover{
+    color: lightcoral;
+    text-decoration: none;
+
+}
+
+.aboutme{
+    font-size: 200%;
+    font-weight:bolder;
+}
