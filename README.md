@@ -15,3 +15,7 @@ AS AN employer
 I WANT to view projects, an about me and contact information of a potential employee
 SO THAT I can make an informed decision on asking to interview that potential employee.
 ```
+
+## Questions 
+Github: [codymichaud](https://github.com/codymichaud)
+Email: [cody.r.michaud@gmail.com]
