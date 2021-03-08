@@ -4,7 +4,7 @@
 - [Description](#description)
 - [Usage](#usage)
 - [Questions](#questions)
-
+- [Screenshot](#screenshot)
 
 ## Description
 Welcome to my work portfolio. On this web app you will find my featured projects, an about me and a contact me page displaying my contact information.
@@ -19,3 +19,7 @@ SO THAT I can make an informed decision on asking to interview that potential em
 ## Questions 
 Github: [codymichaud](https://github.com/codymichaud)
 Email: [cody.r.michaud@gmail.com]
+
+## Screenshot
+
+![](assets\imgs\work.port.screenshot.PNG)
