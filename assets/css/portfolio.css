@@ -106,7 +106,7 @@ IMG.lyricityImg{
 }
 
 .lyrLink{
-    margin-top: 40px;
+    margin-top: 20px;
 }
 
 .gitLink:hover{
@@ -124,7 +124,13 @@ IMG.lyricityImg{
     margin-top: 40px;
 }
 
-
+.langUsedLyr{
+float: intial;
+font-family: 'Nunito Sans', sans-serif ;
+font-weight: bold;
+font-size: 110%;
+margin-top: 40px;
+}
 
 .lyricityPar {
 text-align: right;
@@ -165,7 +171,7 @@ height: 500px;
 }
 
 .codeLink {
-    margin-top: 40px;
+    margin-top: 20px;
 }
 
 .codeLink2:hover{
@@ -173,8 +179,15 @@ height: 500px;
 text-decoration: none;
 }
 
+.langUsedCode{
+    margin-top: 20px;
+    font-family: 'Nunito Sans', sans-serif ;
+    font-weight: bold;
+    font-size: 110%;
+}
+
 .codeRepo{
-    margin-top: 40px;
+    margin-top: 20px;
 }
 
 .repoLink2:hover{
@@ -195,7 +208,7 @@ IMG.latteDImg{
 }
  .latteDTitle{
      text-align: center;
-     margin-bottom: 30px;
+     margin-bottom: 15px;
      font-family: 'Pacifico', cursive;
      font-size: 200%;
  }
@@ -204,10 +217,18 @@ IMG.latteDImg{
      font-family: 'Nunito Sans', sans-serif;
      font-weight: bold;
      font-size: 110%;
+     margin-top: 15px;
  }
 
+.langUsedLatte{
+    margin-top: 20px;
+    font-family: 'Nunito Sans', sans-serif ;
+    font-weight: bold;
+    font-size: 110%;
+}
+
  .latteLink{
-     margin-top: 40px;
+     margin-top: 10px;
  }
 
  .codeLink3:hover{
@@ -216,7 +237,7 @@ IMG.latteDImg{
  }
 
  .latteRepo{
-     margin-top: 40px;
+     margin-top: 10px;
  }
 
 .repoLink3:hover{
@@ -309,7 +330,7 @@ html{
 
 .githubHref{
     color: black;
-    font:;
+    
 }
 
 .githubHref:hover{
@@ -322,3 +343,48 @@ html{
     font-size: 200%;
     font-weight:bolder;
 }
+
+.clearNote{
+    margin-top: 400px;
+    margin-bottom: 300px;
+}
+
+IMG.noteTakerImg{
+    height: 500px;
+    width: 1000px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    float: left;
+}
+
+.noteTakerTitle{
+    text-align: center;
+     margin-bottom: 15px;
+     font-family: 'Pacifico', cursive;
+     font-size: 200%;
+}
+
+.noteTakerPar{
+    font-family: 'Nunito Sans', sans-serif;
+     font-weight: bold;
+     font-size: 110%;
+     margin-top: 15px;
+}
+
+.noteLink{
+    margin-top: 10px;
+}
+
+.codeLink4:hover{
+     color: lightcoral;
+     text-decoration: none;
+ }
+
+ .langUsedNote{
+    margin-top: 20px;
+    font-family: 'Nunito Sans', sans-serif ;
+    font-weight: bold;
+    font-size: 110%;
+ }
+
