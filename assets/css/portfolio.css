@@ -305,7 +305,7 @@ text-decoration: none;
 }
 
 
-/*::-webkit-scrollbar-track{
+::-webkit-scrollbar-track{
     box-shadow: inset 0 0 5px darkslategray;
     border-radius: 8px;
 }
@@ -317,7 +317,7 @@ text-decoration: none;
 
 ::-webkit-scrollbar-thumb:hover{
     background: gray;
-}*/
+}
 
 html{
     overflow: -moz-scrollbars-none;
@@ -381,6 +381,15 @@ IMG.noteTakerImg{
      text-decoration: none;
  }
 
+ .repoLink4:hover {
+     color: lightcoral;
+     text-decoration: none;
+ }
+
+ .noteRepo {
+     margin-top: 10px;
+ }
+ 
  .langUsedNote{
     margin-top: 20px;
     font-family: 'Nunito Sans', sans-serif ;
@@ -388,3 +397,55 @@ IMG.noteTakerImg{
     font-size: 110%;
  }
 
+.clearRept{
+    margin-top: 400px;
+    margin-bottom: 300px;
+}
+
+IMG.leesReptImg {
+    height: 500px;
+    width: 1000px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    float: left;
+}
+
+.leesReptTitle{
+    text-align: center;
+     margin-bottom: 15px;
+     font-family: 'Pacifico', cursive;
+     font-size: 200%;
+}
+
+.leesReptPar{
+    font-family: 'Nunito Sans', sans-serif;
+     font-weight: bold;
+     font-size: 110%;
+     margin-top: 15px;
+}
+
+.reptLink{
+    margin-top: 10px;
+}
+
+.codeLink5:hover{
+     color: lightcoral;
+     text-decoration: none;
+ }
+
+ .langUsedRept{
+    margin-top: 20px;
+    font-family: 'Nunito Sans', sans-serif ;
+    font-weight: bold;
+    font-size: 110%;
+ }
+
+.repoLink5:hover{
+    color: lightcoral;
+    text-decoration: none;
+}
+
+.githubHref{
+    color: lightcoral;
+}

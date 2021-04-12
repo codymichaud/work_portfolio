@@ -1,0 +1,22 @@
+{
+  "name": "work_portfolio",
+  "version": "1.0.0",
+  "description": "- [Description](#description)\r - [Usage](#usage)\r - [Questions](#questions)\r - [Screenshot](#screenshot)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codymichaud/work_portfolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/codymichaud/work_portfolio/issues"
+  },
+  "homepage": "https://github.com/codymichaud/work_portfolio#readme",
+  "dependencies": {
+    "inquirer": "^8.0.0"
+  }
+}
