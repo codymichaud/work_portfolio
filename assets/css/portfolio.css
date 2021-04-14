@@ -456,3 +456,27 @@ IMG.leesReptImg {
     color: lightcoral;
     text-decoration: none;
 }
+
+.skills{
+    margin-left: 50px;
+}
+
+/*.languages{
+    
+    margin-top: 30px;
+    
+}*/
+
+.skillsLangTitle {
+    text-decoration: underline;
+}
+
+.skillsTools{
+text-decoration: underline;
+
+}
+
+.tools{
+margin-top: 50px;
+padding-left: 10px;
+}
