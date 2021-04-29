@@ -110,13 +110,23 @@ IMG.lyricityImg{
     margin-top: 20px;
 }
 
+.gitLink{
+    text-decoration: underline;
+    color: blanchedalmond;
+}
+
 .gitLink:hover{
-    color: lightcoral;
+    color: slategrey;
     text-decoration: none;
 }
 
+.repoLink {
+    color: blanchedalmond;
+    text-decoration: underline;
+}
+
 .repoLink:hover{
-    color: lightcoral;
+    color: slategrey;
     text-decoration: none;
 }
 
@@ -329,13 +339,13 @@ html{
     color: blacks;
 }
 
-.githubHref{
+/* .githubHref{
     color: black;
     
-}
+} */
 
 .githubHref:hover{
-    color: lightcoral;
+    color: slategrey;
     text-decoration: none;
 
 }
@@ -453,12 +463,13 @@ IMG.leesReptImg {
 }
 
 .githubHref{
-    color: lightcoral;
-    text-decoration: none;
+    color: blanchedalmond;
+    text-decoration: underline;
 }
 
 .skills{
-    margin-left: 50px;
+    /* margin-left: 50px; */
+    justify-content: center;
 }
 
 .languages{
@@ -491,9 +502,10 @@ padding-left: 10px;
     color: blanchedalmond;
 }
 
-/*.upWorkLink:hover {
-    
-}*/
+.upWorkLink:hover {
+   color: slategrey;
+   text-decoration: none; 
+}
 
 .resGradient {
     position: absolute;

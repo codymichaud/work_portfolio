@@ -112,3 +112,8 @@ background: linear-gradient(45deg, #32CD32, #004953);
     margin-left: 525px;
 margin-top: 100px;
 }
+
+.fa-upwork .fa-openx {
+    margin: auto;
+    padding: auto;
+}
